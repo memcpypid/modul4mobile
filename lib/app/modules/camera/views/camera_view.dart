@@ -24,7 +24,11 @@ class CameraView extends GetView<CameraController> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               ElevatedButton(
-                  onPressed: () => Get.toNamed('/mic'), child: Text('mic')),
+                  onPressed: () => Get.offAndToNamed('/mic'),
+                  child: Text('mic')),
+              ElevatedButton(
+                  onPressed: () => Get.offAndToNamed('/speak'),
+                  child: Text('speaker')),
 // User Interface untuk menampilkan, memilih, dan mendapatkanfoto menggunakan kamera atau galeri
               SizedBox(
                 height: Get.height / 2.32,

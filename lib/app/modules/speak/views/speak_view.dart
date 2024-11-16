@@ -18,6 +18,10 @@ class SpeakView extends GetView<SpeakController> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            ElevatedButton(
+              onPressed: () => Get.offAndToNamed('/camera'),
+              child: Text('home'),
+            ),
 // Slider untuk mengontrol posisi audio
             Obx(() {
               return Slider(
