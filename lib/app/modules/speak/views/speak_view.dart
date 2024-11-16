@@ -11,7 +11,7 @@ class SpeakView extends GetView<SpeakController> {
         'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3';
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Flutter Audio Player with GetX'),
+        title: const Text('Flutter Page Audio Player with GetX'),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
